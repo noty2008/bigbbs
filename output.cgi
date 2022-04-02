@@ -122,7 +122,7 @@ sub footer{
 	}
 	print <<END;
 <footer id="footer">
-<p><a href="http://uhyohyo.sakura.tv/">uhyohyo web</a>の高機能掲示板 0.6</p>
+<p><a href="https://github.com/noty2008">noty2008</a>作の高機能掲示板 0.6</p>
 <p style="text-align:right">[<a href="$admin">管理者ページ</a>]</p>
 </footer>
 </body>
