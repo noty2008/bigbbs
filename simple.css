@@ -1,0 +1,205 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+h1{
+	border-left:1px solid #000000;
+	border-bottom:1px solid #000000;
+	padding-left:3px;
+	padding-top:5px;
+}
+header,hgroup,nav,article{
+	display:block;
+}
+header#header hgroup{
+}
+header#header hgroup h1{
+	display:inline-block;
+}
+header#header h1{
+	margin:0px;
+	padding:10px;
+	border:none;
+	color:#000000;
+}
+footer#footer{
+	font-size:smaller;
+	color:#777777;
+	text-align:center;
+}
+footer#footer a{
+	color:#555555;
+}
+h2{
+	border-bottom:1px solid #000000;
+	padding-left:1em;
+	padding-top:3px;
+}
+header#header h2{
+	display:inline-block;
+	text-align:right;
+	border:none;
+	margin:0px;
+	font-size:small;
+}
+p{
+	padding-left:1em;
+}
+#header nav ul{
+	margin:0px;
+	padding:0px 30px;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+}
+#header nav ul li{
+	display:inline-block;
+	padding:0.2em 0.5em;
+	font-size:smaller;
+	margin:0px;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+}
+#header nav ul li:hover{
+}
+#header nav ul li a{
+	text-decoration:none;
+	padding:0px;
+	margin:0px;
+	color:inherit;
+}
+#header nav ul li a:hover{
+	color: #ff0000;
+}
+#threads table{
+	z-index:10;
+	width:95%;
+	margin:0px auto;
+	border-collapse: collapse;
+}
+#threads table th{
+	font-weight:bold;
+	text-align:center;
+	padding:2px;
+}
+#threads table td,#threads table th{
+	border:1px solid #000000;
+}
+#threads table td{
+	padding:2px;
+}
+#threads table .number{
+	text-align:right;
+}
+#threads table a{
+	color: #333333;
+}
+#threads table a:visited{
+	color: #999999;
+}
+article{
+	margin-left:30px;
+}
+#view{
+	margin:0px;
+}
+article.res{
+	border:1px solid #000000;
+	padding:0 1em 1em 1em;
+	margin-top:1em;
+	margin-bottom:1em;
+	width:90%;
+}
+article.res.top{
+	border:4px double #000000;
+}
+article.res h3{
+	border:none;
+	border-bottom:1px solid #000000;
+	padding:0.2em;
+	padding-left:0.8em;
+	margin:0 -0.6em;
+}
+article.res.top h3{
+}
+article.res.deleted{
+	border:1px dashed #aaaaaa;
+	color:#777777;
+}
+article.res.deleted h3{
+	color:#888888;
+	border-bottom:1px solid #777777;
+}
+.form{
+	padding:0px 1em 1em 1em;
+	margin-right:30px;
+}
+.form b{
+	display:inline-block;
+	width:5em;
+	text-align:right;
+	vertical-align:top;
+}
+.form input[type="submit"]{
+	width:5em;
+}
+#delete.form{
+	width:22em;
+	margin-left:auto;
+}
+nav.pager{
+	margin:0px 50px;
+	z-index:1;
+}
+nav.pager a{
+	display:inline-block;
+	list-style-type: none;
+	width:2.5em;
+	height:1.2em;
+	line-height:1.2em;
+	text-decoration:none;
+	padding:0px;
+	margin:0.2em 0;
+	color:inherit;
+	border:1px solid #000000;
+	text-align:center;
+}
+nav.pager a:hover{
+	color:#ff0000;
+}
+nav.pager.up a{
+}
+nav.pager.down a{
+}
+nav.pager a.current{
+	font-weight:bold;
+}
+#view nav.pager + article.res{
+	position:relative;
+	left:0;
+	top:0;
+	z-index:10;
+	margin-top:0px !important;
+}
+#view article.res:last-of-type{
+	position:relative;
+	left:0;
+	top:0;
+	z-index:10;
+	margin-bottom:0px !important;
+}
+h3{
+	border-bottom:1px solid #bbbbbb;
+	padding-left:2em;
+	padding-top:3px;
+	color:#555555;
+}
+#find h3 a{
+	color:inherit;
+}
+#find mark{
+	background-color:#ffff33;
+}
+h2 a{
+	color:inherit;
+	text-decoration:none;
+}
