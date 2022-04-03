@@ -14,7 +14,7 @@ function check_input(e){
 		return false;
 	}
 	if(t.elements["message"].value==""){
-		ev_err(e,"なんか変ばい。本文が空や");
+		ev_err(e,"本文が空ですばい！");
 		return false;
 	}
 }
