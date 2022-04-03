@@ -2,19 +2,19 @@ function check_input(e){
 	var t = e.target || e.srcElement;
 	if(!t)return;
 	if(noPassword==0 && t.elements["password"].value==""){
-		ev_err(e,"パスワードが入力されていません。");
+		ev_err(e,"パスワードが入力しての");
 		return false;
 	}
 	if(noName=="" && t.elements["name"].value==""){
-		ev_err(e,"名前が入力されていません。");
+		ev_err(e,"名前がないよ");
 		return false;
 	}
 	if(t.elements["title"].value==""){
-		ev_err(e,"題名が入力されていません。");
+		ev_err(e,"なんか変ばい。スレタイか本文が空や");
 		return false;
 	}
 	if(t.elements["message"].value==""){
-		ev_err(e,"内容が入力されていません。");
+		ev_err(e,"なんか変ばい。本文が空や");
 		return false;
 	}
 }
